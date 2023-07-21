@@ -12,15 +12,12 @@ Contents
  * [Descripción del Proyecto](#descripción-del-proyecto-memo)
  * [Instrucciones de Instalación](#instrucciones-de-instalación-computer)
  * [Funcionalidades](#funcionalidades-sparkles)
+ * [Ayuda para copiar sentencias](#ayuda-para-copiar-sentencias)
  * [Participantes del Grupo](#participantes-del-grupo-busts_in_silhouette)
  
 ## Descripción del Proyecto :memo:
 
 📝 Implementar un servidor web de contenidos estáticos y dinámicos utilizando motores de plantillas acorde al entorno Node Express para dar solución a un problema.
-
-La empresa Black and White Spa está promocionando una campaña para las redes sociales en donde quieren ofrecer un sitio web que permita escribir la URL de una imagen de internet y que ésta sea
-procesada por el servidor para ser devuelta en blanco y negro. Deberás crear un servidor que disponibiliza una ruta raíz que devuelva un HTML con el formulario para
-ingresar la URL de la imagen con estilos CSS de un documento interno en los archivos del servidor. El formulario debe redirigir a otra ruta del servidor que procese la imagen y la devuelva en blanco y negro.
 
 ## Instrucciones de Instalación :computer:
 
@@ -34,8 +31,9 @@ ingresar la URL de la imagen con estilos CSS de un documento interno en los arch
 
 4. Abrir el archivo html ingresando al https://localhost:3000
 
+## Ayuda para copiar sentencias
 
-## <details><summary><b>Ver las instrucciones</b></summary>
+<details><summary><b>Ver las instrucciones</b></summary>
 
 1. Instalar las dependencias:
 
