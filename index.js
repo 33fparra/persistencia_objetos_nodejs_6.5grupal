@@ -26,6 +26,10 @@ const obtenerTodosLosPokemon = async () => {
   }
 };
 
+app.get("/", (req, res)=>{
+  res.send("<html><head><title>Galería de Pokémones</title></head><body><a href='/galeria' style='margin-top:90px; margin-left:60px;'><button>Galería de Pokémones</button></a><a href='/pokemones' style='margin-top:90px; margin-left:10px;'><button>Ver API Pokémones</button></a></body></html>")
+})
+
 // Función asincrónica para obtener la información detallada de un pokémon
 const obtenerInfoPokemon = async (url) => {
   try {
